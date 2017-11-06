@@ -1,0 +1,254 @@
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Config.AliasDomainAttribute 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Config.BasicConfigurator 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Config.DomainAttribute 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Config.DOMConfigurator 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Config.DOMConfiguratorAttribute 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Config.PluginAttribute 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Config.SecurityContextProviderAttribute 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Config.XmlConfigurator 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Core.ErrorCode 生成存根: 类型是一个值类型。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Core.LoggerRepositoryCreationEventHandler 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Core.Level 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Core.LevelMap 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Core.LoggerManager 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Core.LoggingEventData 生成存根: 类型是一个值类型。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Core.FixFlags 生成存根: 类型是一个值类型。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Core.WrapperCreationHandler 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.DateFormatter.IDateFormatter 生成存根: method System.Void log4net.DateFormatter.IDateFormatter.FormatDate(System.DateTime dateToFormat, System.IO.TextWriter writer) unstubbable: 方法是抽象的，因此无法用作存根，类型 System.IO.TextWriter 在目标框架版本中不可用。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Filter.DenyAllFilter 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Filter.FilterDecision 生成存根: 类型是一个值类型。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.PatternConverter 生成存根: method System.Void log4net.Util.PatternConverter.Convert(System.IO.TextWriter writer, System.Object state) unstubbable: 方法是抽象的，因此无法用作存根，类型 System.IO.TextWriter 在目标框架版本中不可用。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.PatternLayoutConverter 生成存根: method System.Void log4net.Layout.Pattern.PatternLayoutConverter.Convert(System.IO.TextWriter writer, log4net.Core.LoggingEvent loggingEvent) unstubbable: 方法是抽象的，因此无法用作存根，类型 System.IO.TextWriter 在目标框架版本中不可用。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.AppDomainPatternConverter 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.AspNetPatternLayoutConverter 生成存根: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.AspNetCachePatternConverter 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.AspNetContextPatternConverter 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.AspNetRequestPatternConverter 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.AspNetSessionPatternConverter 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.DatePatternConverter 生成存根: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.ExceptionPatternConverter 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.FileLocationPatternConverter 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.FullLocationPatternConverter 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.IdentityPatternConverter 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.LevelPatternConverter 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.LineLocationPatternConverter 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.NamedPatternConverter 生成存根: method System.Void log4net.Util.PatternConverter.Convert(System.IO.TextWriter writer, System.Object state) unstubbable: 方法是抽象的，因此无法用作存根，类型 System.IO.TextWriter 在目标框架版本中不可用。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.LoggerPatternConverter 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.MessagePatternConverter 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.MethodLocationPatternConverter 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.NdcPatternConverter 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.PropertyPatternConverter 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.RelativeTimePatternConverter 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.StackTracePatternConverter 生成存根: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.StackTraceDetailPatternConverter 生成存根: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.ThreadPatternConverter 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.TypeNamePatternConverter 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.UserNamePatternConverter 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.UtcDatePatternConverter 生成存根: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.ILayout 生成存根: method System.Void log4net.Layout.ILayout.Format(System.IO.TextWriter writer, log4net.Core.LoggingEvent loggingEvent) unstubbable: 方法是抽象的，因此无法用作存根，类型 System.IO.TextWriter 在目标框架版本中不可用。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.LayoutSkeleton 生成存根: method System.Void log4net.Layout.LayoutSkeleton.Format(System.IO.TextWriter writer, log4net.Core.LoggingEvent loggingEvent) unstubbable: 方法是抽象的，因此无法用作存根，类型 System.IO.TextWriter 在目标框架版本中不可用。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.PatternLayout 生成存根: method System.Void log4net.Layout.LayoutSkeleton.Format(System.IO.TextWriter writer, log4net.Core.LoggingEvent loggingEvent) unstubbable: 方法是抽象的，因此无法用作存根，类型 System.IO.TextWriter 在目标框架版本中不可用。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.DynamicPatternLayout 生成存根: method System.Void log4net.Layout.LayoutSkeleton.Format(System.IO.TextWriter writer, log4net.Core.LoggingEvent loggingEvent) unstubbable: 方法是抽象的，因此无法用作存根，类型 System.IO.TextWriter 在目标框架版本中不可用。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.ExceptionLayout 生成存根: method System.Void log4net.Layout.LayoutSkeleton.Format(System.IO.TextWriter writer, log4net.Core.LoggingEvent loggingEvent) unstubbable: 方法是抽象的，因此无法用作存根，类型 System.IO.TextWriter 在目标框架版本中不可用。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.SimpleLayout 生成存根: method System.Void log4net.Layout.LayoutSkeleton.Format(System.IO.TextWriter writer, log4net.Core.LoggingEvent loggingEvent) unstubbable: 方法是抽象的，因此无法用作存根，类型 System.IO.TextWriter 在目标框架版本中不可用。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.XmlLayoutBase 生成存根: method System.Void log4net.Layout.LayoutSkeleton.Format(System.IO.TextWriter writer, log4net.Core.LoggingEvent loggingEvent) unstubbable: 方法是抽象的，因此无法用作存根，类型 System.IO.TextWriter 在目标框架版本中不可用。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.XmlLayout 生成存根: method System.Void log4net.Layout.LayoutSkeleton.Format(System.IO.TextWriter writer, log4net.Core.LoggingEvent loggingEvent) unstubbable: 方法是抽象的，因此无法用作存根，类型 System.IO.TextWriter 在目标框架版本中不可用。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.XmlLayoutSchemaLog4j 生成存根: method System.Void log4net.Layout.LayoutSkeleton.Format(System.IO.TextWriter writer, log4net.Core.LoggingEvent loggingEvent) unstubbable: 方法是抽象的，因此无法用作存根，类型 System.IO.TextWriter 在目标框架版本中不可用。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.ObjectRenderer.IObjectRenderer 生成存根: method System.Void log4net.ObjectRenderer.IObjectRenderer.RenderObject(log4net.ObjectRenderer.RendererMap rendererMap, System.Object obj, System.IO.TextWriter writer) unstubbable: 方法是抽象的，因此无法用作存根，类型 System.IO.TextWriter 在目标框架版本中不可用。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.ObjectRenderer.DefaultRenderer 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Plugin.PluginMap 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Repository.Hierarchy.DefaultLoggerFactory 生成存根: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Repository.Hierarchy.LoggerCreationEventHandler 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Repository.Hierarchy.LoggerKey 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Repository.Hierarchy.ProvisionNode 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Repository.LoggerRepositoryShutdownEventHandler 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Repository.LoggerRepositoryConfigurationResetEventHandler 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Repository.LoggerRepositoryConfigurationChangedEventHandler 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.PatternStringConverters.AppDomainPatternConverter 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.PatternStringConverters.DatePatternConverter 生成存根: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.PatternStringConverters.EnvironmentFolderPathPatternConverter 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.PatternStringConverters.EnvironmentPatternConverter 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.PatternStringConverters.IdentityPatternConverter 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.PatternStringConverters.LiteralPatternConverter 生成存根: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.PatternStringConverters.NewLinePatternConverter 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.PatternStringConverters.ProcessIdPatternConverter 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.PatternStringConverters.PropertyPatternConverter 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.PatternStringConverters.RandomStringPatternConverter 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.PatternStringConverters.UserNamePatternConverter 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.PatternStringConverters.UtcDatePatternConverter 生成存根: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.TypeConverters.BooleanConverter 生成存根: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.TypeConverters.ConverterRegistry 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.TypeConverters.EncodingConverter 生成存根: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.TypeConverters.IPAddressConverter 生成存根: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.TypeConverters.PatternLayoutConverter 生成存根: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.TypeConverters.PatternStringConverter 生成存根: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.TypeConverters.TypeConverter 生成存根: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.TypeConverters.TypeConverterAttribute 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.CompositeProperties 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.ConverterInfo 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.TextWriterAdapter 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.QuietTextWriter 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.CountingQuietTextWriter 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.EmptyCollection 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.EmptyDictionary 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.GlobalContextProperties 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.ILogExtensions 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.LevelMapping 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.LogicalThreadContextProperties 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.TwoArgAction`2 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.LogicalThreadContextStack 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.LogicalThreadContextStacks 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.LogReceivedEventHandler 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.LogLog 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.NativeError 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.NullDictionaryEnumerator 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.NullEnumerator 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.NullSecurityContext 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.OptionConverter 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.PatternParser 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.PropertiesDictionary 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.ProtectCloseTextWriter 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.ReaderWriterLock 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.ReusableStringWriter 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.SystemInfo 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.SystemStringFormat 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.ThreadContextProperties 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.ThreadContextStack 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.ThreadContextStacks 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.Transform 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.GlobalContext 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.AssemblyInfo 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.LogicalThreadContext 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.LogManager 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.MDC 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.NDC 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.ThreadContext 生成存根: 类型已密封。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 <PrivateImplementationDetails>{D13E4F52-C9FD-42DB-8A9E-33FC9119338A} 生成存根: 类型不受支持，因为存在内部限制。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Appender.IAppender 生成填充码: 类型是一个接口。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Appender.IBulkAppender 生成填充码: 类型是一个接口。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Core.IOptionHandler 生成填充码: 类型是一个接口。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Appender.AnsiColorTerminalAppender+AnsiAttributes 生成填充码: 类型是一个枚举。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Appender.AnsiColorTerminalAppender+AnsiColor 生成填充码: 类型是一个枚举。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Appender.AppenderCollection+Enumerator 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Appender.AppenderCollection+IAppenderCollectionEnumerator 生成填充码: 类型是一个接口。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Appender.AppenderCollection+ReadOnlyAppenderCollection 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Appender.AppenderCollection+Tag 生成填充码: 类型是一个枚举。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Core.IAppenderAttachable 生成填充码: 类型是一个接口。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Appender.ColoredConsoleAppender+CONSOLE_SCREEN_BUFFER_INFO 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Appender.ColoredConsoleAppender+COORD 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Appender.ColoredConsoleAppender+Colors 生成填充码: 类型是一个枚举。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Appender.ColoredConsoleAppender+SMALL_RECT 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Appender.FileAppender+LockingStream 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Appender.LocalSyslogAppender+SyslogFacility 生成填充码: 类型是一个枚举。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Appender.LocalSyslogAppender+SyslogSeverity 生成填充码: 类型是一个枚举。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Appender.RemoteSyslogAppender+SyslogFacility 生成填充码: 类型是一个枚举。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Appender.RemoteSyslogAppender+SyslogSeverity 生成填充码: 类型是一个枚举。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Appender.RemotingAppender+IRemoteLoggingSink 生成填充码: 类型是一个接口。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Appender.RollingFileAppender+IDateTime 生成填充码: 类型是一个接口。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Appender.RollingFileAppender+LocalDateTime 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Appender.RollingFileAppender+RollPoint 生成填充码: 类型是一个枚举。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Appender.RollingFileAppender+RollingMode 生成填充码: 类型是一个枚举。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Appender.RollingFileAppender+UniversalDateTime 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Appender.SmtpAppender+SmtpAuthentication 生成填充码: 类型是一个枚举。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Appender.TelnetAppender+SocketHandler 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Config.AliasDomainAttribute 生成填充码: 类型已过时。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Config.DomainAttribute 生成填充码: 类型已过时。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Config.DOMConfigurator 生成填充码: 类型已过时。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Config.DOMConfiguratorAttribute 生成填充码: 类型已过时。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Plugin.IPluginFactory 生成填充码: 类型是一个接口。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Config.XmlConfigurator+ConfigureAndWatchHandler 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Core.IRepositorySelector 生成填充码: 类型是一个接口。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Core.ErrorCode 生成填充码: 类型是一个枚举。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Core.ITriggeringEventEvaluator 生成填充码: 类型是一个接口。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Core.IErrorHandler 生成填充码: 类型是一个接口。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Core.IFixingRequired 生成填充码: 类型是一个接口。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Core.ILogger 生成填充码: 类型是一个接口。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Core.ILoggerWrapper 生成填充码: 类型是一个接口。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Core.LoggerRepositoryCreationEventHandler 生成填充码: 类型是一个委托。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Core.LevelCollection+Enumerator 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Core.LevelCollection+ILevelCollectionEnumerator 生成填充码: 类型是一个接口。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Core.LevelCollection+ReadOnlyLevelCollection 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Core.LevelCollection+Tag 生成填充码: 类型是一个枚举。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Core.FixFlags 生成填充码: 类型是一个枚举。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.ILog 生成填充码: 类型是一个接口。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Core.WrapperCreationHandler 生成填充码: 类型是一个委托。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.DateFormatter.IDateFormatter 生成填充码: 类型是一个接口。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Filter.IFilter 生成填充码: 类型是一个接口。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Filter.FilterDecision 生成填充码: 类型是一个枚举。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.AppDomainPatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.AspNetPatternLayoutConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.AspNetCachePatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.AspNetContextPatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.AspNetRequestPatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.AspNetSessionPatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.DatePatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.ExceptionPatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.FileLocationPatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.FullLocationPatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.IdentityPatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.LevelPatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.LineLocationPatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.LoggerPatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.MessagePatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.MethodLocationPatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.NdcPatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.PropertyPatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.RelativeTimePatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.StackTracePatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.StackTraceDetailPatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.ThreadPatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.TypeNamePatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.UserNamePatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.Pattern.UtcDatePatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.ILayout 生成填充码: 类型是一个接口。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Layout.IRawLayout 生成填充码: 类型是一个接口。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.TypeConverters.IConvertFrom 生成填充码: 类型是一个接口。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.ObjectRenderer.IObjectRenderer 生成填充码: 类型是一个接口。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Plugin.IPlugin 生成填充码: 类型是一个接口。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Plugin.PluginCollection+Enumerator 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Plugin.PluginCollection+IPluginCollectionEnumerator 生成填充码: 类型是一个接口。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Plugin.PluginCollection+ReadOnlyPluginCollection 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Plugin.PluginCollection+Tag 生成填充码: 类型是一个枚举。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Plugin.RemoteLoggingServerPlugin+RemoteLoggingSinkImpl 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Repository.Hierarchy.ILoggerFactory 生成填充码: 类型是一个接口。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Repository.Hierarchy.DefaultLoggerFactory 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Repository.Hierarchy.LoggerCreationEventHandler 生成填充码: 类型是一个委托。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Repository.ILoggerRepository 生成填充码: 类型是一个接口。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Repository.IBasicRepositoryConfigurator 生成填充码: 类型是一个接口。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Repository.IXmlRepositoryConfigurator 生成填充码: 类型是一个接口。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Repository.Hierarchy.Hierarchy+LevelEntry 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Repository.Hierarchy.LoggerKey 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Repository.Hierarchy.ProvisionNode 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Repository.Hierarchy.XmlHierarchyConfigurator+ConfigUpdateMode 生成填充码: 类型是一个枚举。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Repository.LoggerRepositoryShutdownEventHandler 生成填充码: 类型是一个委托。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Repository.LoggerRepositoryConfigurationResetEventHandler 生成填充码: 类型是一个委托。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Repository.LoggerRepositoryConfigurationChangedEventHandler 生成填充码: 类型是一个委托。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.PatternStringConverters.AppDomainPatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.PatternStringConverters.DatePatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.PatternStringConverters.EnvironmentFolderPathPatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.PatternStringConverters.EnvironmentPatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.PatternStringConverters.IdentityPatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.PatternStringConverters.LiteralPatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.PatternStringConverters.NewLinePatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.PatternStringConverters.ProcessIdPatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.PatternStringConverters.PropertyPatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.PatternStringConverters.RandomStringPatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.PatternStringConverters.UserNamePatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.PatternStringConverters.UtcDatePatternConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.TypeConverters.BooleanConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.TypeConverters.EncodingConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.TypeConverters.IConvertTo 生成填充码: 类型是一个接口。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.TypeConverters.IPAddressConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.TypeConverters.PatternLayoutConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.TypeConverters.PatternStringConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.TypeConverters.TypeConverter 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.TwoArgAction`2 生成填充码: 类型是一个委托。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.LogicalThreadContextStack+AutoPopStackFrame 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.LogicalThreadContextStack+StackFrame 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.LogReceivedEventHandler 生成填充码: 类型是一个委托。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.PatternParser+StringLengthComparer 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.ThreadContextStack+AutoPopStackFrame 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.ThreadContextStack+StackFrame 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.WindowsSecurityContext+DisposableImpersonationContext 生成填充码: 类型对 exported or assembly(log4net.Fakes) 不可见。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 log4net.Util.WindowsSecurityContext+ImpersonationMode 生成填充码: 类型是一个枚举。
+E:\学习资料\GitHub\Infrastructure\Fakes\log4net.fakes : warning : 无法为 <PrivateImplementationDetails>{D13E4F52-C9FD-42DB-8A9E-33FC9119338A} 生成填充码: 类型不受支持，因为存在内部限制。
