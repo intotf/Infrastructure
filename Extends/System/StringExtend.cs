@@ -251,31 +251,6 @@ namespace System
 
         /// <summary>
         /// 字符串马赛克
-        /// 左边长度大于字符串总长度，整个字符串打码
-        /// 右边长度大于左边长度+字符串长度时，除左边长度外其它字符都打码
-        /// </summary>
-        /// <param name="source"></param>
-        /// <param name="mask">马赛克</param>
-        /// <param name="left">左边长度</param>
-        /// <param name="length">右边保留长度</param>
-        /// <returns></returns>
-        public static string MaskAsCenter(this string source, char mask, int left, int right)
-        {
-            if (source.IsNullOrEmpty())
-            {
-                return source;
-            }
-            if (source.Length < left)
-            {
-                left = 0;
-            }
-            var length = source.Length - left - right;
-            length = length > 0 ? length : (source.Length - left);
-            return source.MaskAs(mask, left, length);
-        }
-
-        /// <summary>
-        /// 字符串马赛克
         /// </summary>
         /// <param name="source"></param>
         /// <param name="mask">马赛克</param>
@@ -327,6 +302,22 @@ namespace System
             var s = sourceArray.Length - q;
             var r = destArray.Length - q;
             return Kq * q / (Kq * q + Kr * r + Ks * s);
+        }
+
+        /// <summary>
+        /// 转换为小写开头
+        /// </summary>
+        /// <param name="source"></param>
+        /// <returns></returns>
+        public static string CamelCase(this string source)
+        {
+            if (source.IsNullOrEmpty())
+            {
+                return source;
+            }
+            var charArray = source.ToCharArray();
+            charArray[0] = Char.ToLower(charArray[0]);
+            return new string(charArray);
         }
     }
 }

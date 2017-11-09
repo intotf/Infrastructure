@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HDP.Common.Utility
+namespace Infrastructure.Utility
 {
     /// <summary>
     /// 提供相同名称字段的对象映射

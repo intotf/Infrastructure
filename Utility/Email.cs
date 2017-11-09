@@ -7,7 +7,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace HDP.Common.Utility
+namespace Infrastructure.Utility
 {
     /// <summary>
     /// 表示邮件

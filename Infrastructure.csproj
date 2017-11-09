@@ -55,6 +55,7 @@
     <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
     <Reference Include="System.Runtime.Caching" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Mvc, Version=4.0.0.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -86,11 +87,20 @@
     <Compile Include="Configs\RedisConfig.cs" />
     <Compile Include="Extends\System\TimeSpanExtened.cs" />
     <Compile Include="Extends\System\UriExtend.cs" />
+    <Compile Include="HttpContents\ApplicationJsonContent.cs" />
+    <Compile Include="HttpContents\XFormUrlEncodedContent.cs" />
     <Compile Include="Menu\FilterNode.cs" />
     <Compile Include="Restful\ApiResult.cs" />
     <Compile Include="Restful\ErrorCode.cs" />
     <Compile Include="Restful\RestModel.cs" />
     <Compile Include="Restful\RestResult.cs" />
+    <Compile Include="Res\FileRes.cs" />
+    <Compile Include="Res\FtpClient.cs" />
+    <Compile Include="Res\ImageRes.cs" />
+    <Compile Include="Res\MarkPosition.cs" />
+    <Compile Include="Res\PostedFile.cs" />
+    <Compile Include="Res\ScaleMode.cs" />
+    <Compile Include="Res\ScaleOption.cs" />
     <Compile Include="Utility\AbsoluteCache.cs" />
     <Compile Include="Utility\Cells.cs" />
     <Compile Include="Resource\HttpFileWrapper.cs" />

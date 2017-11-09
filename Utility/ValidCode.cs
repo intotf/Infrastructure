@@ -5,7 +5,7 @@ using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 
-namespace HDP.Common.Utility
+namespace Infrastructure.Utility
 {
     /// <summary>
     /// 验证码生成类

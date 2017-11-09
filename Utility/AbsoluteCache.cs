@@ -4,7 +4,7 @@ using System.Runtime.Caching;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HDP.Common.Utility
+namespace Infrastructure.Utility
 {
     /// <summary>
     /// 表示绝对过期的内存缓存

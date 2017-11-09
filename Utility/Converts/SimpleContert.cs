@@ -1,9 +1,10 @@
-﻿using System;
+﻿using Infrastructure.Utility;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace HDP.Common.Utility.Converts
+namespace Infrastructure.Utility.Converts
 {
     /// <summary>
     /// 表示简单类型转换单元
