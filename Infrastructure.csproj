@@ -138,6 +138,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Utility\Converts\SimpleContert.cs" />
+    <Compile Include="Utility\Debugger.cs" />
     <Compile Include="Utility\EMail.cs" />
     <Compile Include="Utility\HtmlConvert.cs" />
     <Compile Include="Utility\HttpClient.cs">

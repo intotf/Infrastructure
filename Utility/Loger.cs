@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -41,6 +42,11 @@ namespace Infrastructure.Utility
         private readonly string fileFullName;
 
         /// <summary>
+        /// 文件名称
+        /// </summary>
+        private readonly string filename;
+
+        /// <summary>
         /// 内容
         /// </summary>
         private readonly StringBuilder sb = new StringBuilder();
@@ -48,30 +54,31 @@ namespace Infrastructure.Utility
         /// <summary>
         /// 日志
         /// </summary>
-        /// <param name="fileName">文件名</param>
-        public Loger(string fileName)
+        /// <param name="Name">文件名</param>
+        public Loger(string Name)
         {
-            if (fileName == null)
+            this.filename = Name;
+            if (Name == null)
             {
                 throw new ArgumentNullException();
             }
 
-            if (Path.GetExtension(fileName).IsNullOrEmpty())
+            if (Path.GetExtension(Name).IsNullOrEmpty())
             {
-                fileName = fileName + ".txt";
+                Name = Name + ".txt";
             }
 
             if (HttpContext.Current != null)
             {
-                fileName = HttpContext.Current.Server.MapPath("~/" + fileName);
+                Name = HttpContext.Current.Server.MapPath("~/" + Name);
             }
 
-            var dir = Path.GetDirectoryName(fileName);
+            var dir = Path.GetDirectoryName(Name);
             if (dir.IsNullOrEmpty() == false)
             {
                 Directory.CreateDirectory(dir);
             }
-            this.fileFullName = fileName;
+            this.fileFullName = Name;
         }
 
         /// <summary>
@@ -166,6 +173,7 @@ namespace Infrastructure.Utility
             lock (syncRoot)
             {
                 File.AppendAllText(this.fileFullName, this.sb.ToString());
+                Debugger.WriteLine("{0}->{1}", this.filename, this.sb.ToString());
                 sb.Clear();
             }
         }
