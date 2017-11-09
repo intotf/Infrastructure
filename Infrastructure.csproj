@@ -10,11 +10,12 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Infrastructure</RootNamespace>
     <AssemblyName>Infrastructure</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <WebGreaseLibPath>..\net_packages\WebGrease.1.5.2\lib</WebGreaseLibPath>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -25,6 +26,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -33,6 +35,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Aspose.Cells, Version=7.7.2.0, Culture=neutral, PublicKeyToken=00725b1ceb58d0a9, processorArchitecture=MSIL">
@@ -52,6 +55,7 @@
     <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Caching" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Mvc, Version=4.0.0.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -76,13 +80,18 @@
     <Compile Include="Attributes\ILoginAttribute.cs" />
     <Compile Include="Attributes\MultipartFormAttribute.cs" />
     <Compile Include="Attributes\NotNullAttribute.cs" />
+    <Compile Include="BCL\AsyncRoot.cs" />
+    <Compile Include="BCL\Guid16.cs" />
     <Compile Include="Configs\HttpConfig.cs" />
     <Compile Include="Configs\RedisConfig.cs" />
+    <Compile Include="Extends\System\TimeSpanExtened.cs" />
+    <Compile Include="Extends\System\UriExtend.cs" />
     <Compile Include="Menu\FilterNode.cs" />
     <Compile Include="Restful\ApiResult.cs" />
     <Compile Include="Restful\ErrorCode.cs" />
     <Compile Include="Restful\RestModel.cs" />
     <Compile Include="Restful\RestResult.cs" />
+    <Compile Include="Utility\AbsoluteCache.cs" />
     <Compile Include="Utility\Cells.cs" />
     <Compile Include="Resource\HttpFileWrapper.cs" />
     <Compile Include="Utility\Converter.cs" />
@@ -118,6 +127,8 @@
     <Compile Include="Resource\ImageRes.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Utility\Converts\SimpleContert.cs" />
+    <Compile Include="Utility\EMail.cs" />
     <Compile Include="Utility\HtmlConvert.cs" />
     <Compile Include="Utility\HttpClient.cs">
       <SubType>Component</SubType>
@@ -134,6 +145,7 @@
     <Compile Include="Utility\LogHelper.cs" />
     <Compile Include="Reflection\Method.cs" />
     <Compile Include="Reflection\Property.cs" />
+    <Compile Include="Utility\Mapper.cs" />
     <Compile Include="Utility\UcsApi.cs" />
     <Compile Include="Utility\Updater.cs" />
     <Compile Include="Utility\ValidCode.cs" />

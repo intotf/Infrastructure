@@ -12,10 +12,20 @@ using Infrastructure.Attributes;
 namespace Infrastructure.Utility
 {
 
+    /// <summary>
+    /// 定义导入的实体属性 特性
+    /// </summary>
     public class CellColumnAttribute : Attribute
     {
+        /// <summary>
+        /// 对应 Excle 第一行名字
+        /// </summary>
         public string Name { get; private set; }
 
+        /// <summary>
+        /// 构造函数
+        /// </summary>
+        /// <param name="name">Excle 第一行表头</param>
         public CellColumnAttribute(string name)
         {
             this.Name = name;
@@ -29,7 +39,7 @@ namespace Infrastructure.Utility
     public class Cells<T> where T : new()
     {
         /// <summary>
-        /// 字段
+        /// 导出字段
         /// </summary>
         private List<IField> fields = new List<IField>();
 
@@ -56,6 +66,11 @@ namespace Infrastructure.Utility
             this.Models = this.ReadCells(fileName);
         }
 
+        /// <summary>
+        /// 读取Excle 第一个Sheet 对象集合
+        /// </summary>
+        /// <param name="fileName"></param>
+        /// <returns></returns>
         private IEnumerable<T> ReadCells(string fileName)
         {
             var cells = new Workbook(fileName).Worksheets[0].Cells;
@@ -89,8 +104,6 @@ namespace Infrastructure.Utility
             }
         }
 
-
-
         /// <summary>
         /// 添加字段
         /// </summary>
@@ -119,8 +132,6 @@ namespace Infrastructure.Utility
             style.Font.IsBold = true;
             return style;
         }
-
-
 
         /// <summary>
         /// 保存到文件

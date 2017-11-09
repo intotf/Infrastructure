@@ -90,5 +90,15 @@ namespace System
         {
             return dateTime.ToString("yyyy-MM-dd");
         }
+
+        /// <summary>
+        /// 转为日期时间格式
+        /// </summary>
+        /// <param name="dateTime">时间</param>
+        /// <returns></returns>
+        public static string ToDateTimeString(this DateTime dateTime)
+        {
+            return dateTime.ToString("yyyy-MM-dd HH:mm:ss");
+        }
     }
 }

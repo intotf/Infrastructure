@@ -5,7 +5,7 @@ using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 
-namespace Infrastructure.Utility
+namespace HDP.Common.Utility
 {
     /// <summary>
     /// 验证码生成类
@@ -132,8 +132,6 @@ namespace Infrastructure.Utility
             return image;
         }
 
-
-
         /// <summary>
         /// 返回一个新的验证码
         /// </summary>
@@ -144,18 +142,28 @@ namespace Infrastructure.Utility
         }
 
         /// <summary>
+        /// 返回一个指定长度的纯数字验证码
+        /// </summary>
+        /// <returns></returns>
+        public static string NewValidCode(int Lengther)
+        {
+            return NewValidCode(false, Lengther);
+        }
+
+        /// <summary>
         /// 返回一个新的验证码
         /// </summary>
         /// <param name="numOnly">是否只是字母</param>
+        /// <param name="Lengther">长度</param>
         /// <returns></returns>
-        public static string NewValidCode(bool numOnly)
+        public static string NewValidCode(bool numOnly, int Lengther = 4)
         {
             var num = new char[] { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' };
             var letter = new char[] { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' };
 
             var sources = numOnly ? num : num.Concat(letter).ToArray();
             var ran = new Random();
-            var chars = Enumerable.Range(0, 4).Select(i => ran.Next(0, sources.Length - 1)).Select(i => sources[i]).ToArray();
+            var chars = Enumerable.Range(0, Lengther).Select(i => ran.Next(0, sources.Length - 1)).Select(i => sources[i]).ToArray();
             return new string(chars);
         }
 

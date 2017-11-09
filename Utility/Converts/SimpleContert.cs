@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Infrastructure.Utility.Converts
+namespace HDP.Common.Utility.Converts
 {
     /// <summary>
-    /// 表示可空类型转换单元
+    /// 表示简单类型转换单元
+    /// 支持基元类型、guid和枚举相互转换
     /// </summary>
-    public class NullableConvert : IConvert
+    public class SimpleContert : IConvert
     {
         /// <summary>
         /// 转换器实例
@@ -28,11 +29,28 @@ namespace Infrastructure.Utility.Converts
         /// <returns></returns>
         public object Convert(object value, Type targetType)
         {
-            if (targetType.IsGenericType && targetType.GetGenericTypeDefinition() == typeof(Nullable<>))
+            var valueString = value.ToString();
+            if (targetType.IsEnum == true)
             {
-                var genericArgument = targetType.GetGenericArguments().First();
-                return this.Converter.Convert(value, genericArgument);
+                return Enum.Parse(targetType, valueString, true);
             }
+
+            if (typeof(string) == targetType)
+            {
+                return valueString;
+            }
+
+            if (typeof(Guid) == targetType)
+            {
+                return Guid.Parse(valueString);
+            }
+
+            var convertible = value as IConvertible;
+            if (convertible != null && typeof(IConvertible).IsAssignableFrom(targetType) == true)
+            {
+                return convertible.ToType(targetType, null);
+            }
+
             return this.NextConvert.Convert(value, targetType);
         }
     }
