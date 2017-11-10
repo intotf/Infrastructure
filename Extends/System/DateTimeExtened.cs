@@ -82,7 +82,7 @@ namespace System
         }
 
         /// <summary>
-        /// 转为日期格式
+        /// 转为 yyyy-MM-dd
         /// </summary>
         /// <param name="dateTime">时间</param>
         /// <returns></returns>
@@ -92,13 +92,25 @@ namespace System
         }
 
         /// <summary>
-        /// 转为日期时间格式
+        /// 转为yyyy-MM-dd HH:mm:ss
         /// </summary>
         /// <param name="dateTime">时间</param>
         /// <returns></returns>
         public static string ToDateTimeString(this DateTime dateTime)
         {
             return dateTime.ToString("yyyy-MM-dd HH:mm:ss");
+        }
+
+        // <summary>  
+        /// 获取时间毫秒戳 Timestamp
+        /// </summary>  
+        /// <param name="dt"></param>  
+        /// <returns></returns>  
+        public static long ToTimeStamp(this DateTime dt)
+        {
+            DateTime dateStart = new DateTime(1970, 1, 1, 8, 0, 0);
+            var timeStamp = Convert.ToInt64((dt - dateStart).TotalMilliseconds);
+            return timeStamp;
         }
     }
 }
