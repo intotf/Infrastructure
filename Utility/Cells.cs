@@ -132,7 +132,7 @@ namespace Infrastructure.Utility
         }
 
         /// <summary>
-        /// 添加所有对象属性为字段
+        /// 添加对象所有属性为字段
         /// </summary>
         /// <returns></returns>
         public Cells<T> AddAllField()
