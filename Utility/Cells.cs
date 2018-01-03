@@ -8,6 +8,7 @@ using Aspose.Cells;
 using System.Drawing;
 using Infrastructure.Reflection;
 using Infrastructure.Attributes;
+using System.Reflection;
 
 namespace Infrastructure.Utility
 {
@@ -118,6 +119,32 @@ namespace Infrastructure.Utility
         }
 
         /// <summary>
+        /// 添加字段
+        /// </summary>
+        /// <typeparam name="TField">字段类型</typeparam>   
+        /// <param name="name">字段名</param>
+        /// <param name="value">字段值</param>
+        private Cells<T> AddField(string name, PropertyInfo property)
+        {
+            var field = new Field(name, property);
+            this.fields.Add(field);
+            return this;
+        }
+
+        /// <summary>
+        /// 添加所有对象属性为字段
+        /// </summary>
+        /// <returns></returns>
+        public Cells<T> AddAllField()
+        {
+            foreach (var item in typeof(T).GetProperties())
+            {
+                this.AddField(item.Name, item);
+            }
+            return this;
+        }
+
+        /// <summary>
         /// 标题头简单样式
         /// </summary>
         /// <returns></returns>
@@ -173,6 +200,26 @@ namespace Infrastructure.Utility
         {
             string Name { get; }
             object GetValue(T model);
+        }
+
+        /// <summary>
+        /// 表示字段类型信息
+        /// </summary>
+        private class Field : IField
+        {
+            private readonly PropertyInfo property;
+            public string Name { get; private set; }
+
+            public Field(string name, PropertyInfo property)
+            {
+                this.Name = name;
+                this.property = property;
+            }
+
+            public object GetValue(T model)
+            {
+                return this.property.GetValue(model, null);
+            }
         }
 
         /// <summary>
