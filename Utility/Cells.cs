@@ -134,12 +134,23 @@ namespace Infrastructure.Utility
         /// <summary>
         /// 添加对象所有属性为字段
         /// </summary>
+        /// <param name="IsColumnName">是否按模型特性进行转换</param>
         /// <returns></returns>
-        public Cells<T> AddAllField()
+        public Cells<T> AddAllField(bool IsColumnName = false)
         {
-            foreach (var item in typeof(T).GetProperties())
+            var properties = typeof(T).GetProperties();
+            foreach (var item in properties)
             {
-                this.AddField(item.Name, item);
+                var fieldName = item.Name;
+                if (IsColumnName)
+                {
+                    var column = Attribute.GetCustomAttribute(item, typeof(CellColumnAttribute)) as CellColumnAttribute;
+                    if (column != null)
+                    {
+                        fieldName = column.Name;
+                    }
+                }
+                this.AddField(fieldName, item);
             }
             return this;
         }
